@@ -1,11 +1,13 @@
-* {
+*{
     margin: 0;
     padding: 0;
 }
-
+body {
+    font-family: 'Poppins', sans-serif;
+}
 .cabecalho {
-    background-color: #424E61;
-    color: white;
+    background-color: #000000;
+    color: rgb(37, 36, 36);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -13,13 +15,13 @@
 }
 
 .cabecalho-imagem{
-    width: 15%;
+    width: 20%;
 }
 
 .cabecalho-lista-item{
     display: inline-block;
     margin: 0 16px;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .escola-imagem{
@@ -27,7 +29,7 @@
 }
 
 .escola{
-    background-image: linear-gradient(#424E61,#000000);
+    background-image: linear-gradient(#000000,#57515c);
     color:white;
     display: flex;
     justify-content: center;
@@ -36,8 +38,49 @@
 }
 
 .escola-div-conteudo{
-    width: 50%;
+    width: 35%;
 }
+
+
 .escola-titulo{
     padding: 24px 0;
 }
+
+.army-heavy {
+    width: 180px;
+}
+
+.guard-assaulter {
+    width: 180px;
+}
+
+.guard-defender {
+    width: 180px;
+}
+
+.guard-heavy {
+    width: 180px;
+}
+
+.guard-royal {
+    width: 180px;
+}
+
+.guard-sniper {
+    width: 180px;
+}
+
+.vilões-div {
+    text-align: center;
+}
+
+.vilões-título {
+    text-align: center;
+    padding: 25px 0;
+}
+
+.vilões-todos {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
