@@ -6,8 +6,8 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 .cabecalho {
-    background-color: #000000;
-    color: rgb(37, 36, 36);
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -29,7 +29,7 @@ body {
 }
 
 .escola{
-    background-image: linear-gradient(#000000,#57515c);
+    background-image: linear-gradient(#ffffff,#3155a1);
     color:white;
     display: flex;
     justify-content: center;
@@ -82,5 +82,8 @@ body {
 .vilões-todos {
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.Stranger{
+    width: 50%;
 }
 
