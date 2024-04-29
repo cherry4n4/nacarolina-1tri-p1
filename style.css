@@ -30,7 +30,7 @@ body {
 
 .escola{
     background-image: linear-gradient(#ffffff,#3155a1);
-    color:white;
+    color:rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,6 +84,6 @@ body {
     grid-template-columns: 20% 20% 20% 20% 20%;
 }
 .Stranger{
-    width: 50%;
+    width: 100%;
 }
 
